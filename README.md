@@ -7,7 +7,7 @@ These are my dotfiles that I use on my workhorse, unfortunately I'm not skilled 
 Simply drag and drop my dotfiles into your ```.config/``` folder in your home, or copy these set of commands:
 
 ```
-git clone https://github.com/jsrii/dots.git
+git clone https://github.com/jsrii/openboxDots.git
 mv ~/dots ~/.config
 ```
 
