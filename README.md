@@ -8,7 +8,7 @@ Simply drag and drop my dotfiles into your ```.config/``` folder in your home, o
 
 ```
 git clone https://github.com/jsrii/openboxDots.git
-mv ~/dots ~/.config
+mv dots/ ~/.config
 ```
 
 Then reload your apps or just restart your device and the configs should be applied.
