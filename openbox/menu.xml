@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="VSCode"> <action name="Execute">
+                <execute>code</execute>
+            </action> </item>
+            <item label="Emacs"> <action name="Execute">
+		<execute>~/.config/emacs/bin/doom run</execute>
+            </action> </item>
+            <item label="Github Desktop"> <action name="Execute">
+                <execute>github-desktop</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Media">
+            <item label="pavucontrol"> <action name="Execute">
+                <execute>pavucontrol</execute>
+            </action> </item>
+            <item label="ncspotify"> <action name="Execute">
+                <execute>alacritty -e ncspot</execute>
+            </action> </item>
+            <item label="GIMP"> <action name="Execute">
+                <execute>gimp</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Firefox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="Vesktop"> <action name="Execute">
+                <execute>vesktop</execute>
+            </action> </item>
+            <item label="network-manager"> <action name="Execute">
+                <execute>alacritty -e nmtui</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="Alacritty"> <action name="Execute">
+                <execute>alacritty</execute>
+            </action> </item>
+            <item label="Git"> <action name="Execute">
+                <execute>alacritty -e git</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <item label="Openbox Configuration"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="tint2conf"> <action name="Execute">
+                    <execute>tint2conf</execute>
+                </action> </item>
+            </menu>
+            <item label="Btop"> <action name="Execute">
+                <execute>alacritty -e btop</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="Thunar"> <action name="Execute">
+                <execute>thunar</execute>
+            </action> </item>
+            <item label="Xarchiver"> <action name="Execute">
+                <execute>xarchiver</execute>
+            </action> </item>
+            <item label="Waypaper"> <action name="Execute">
+                <execute>waypaper</execute>
+            </action> </item>
+    	    <item label="Screenshot"> <action name="Execute">
+				<execute>scrot -s ~/Pictures/Screenshots/%b%d::%H%M%S.png</execute>
+    	    </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+	    <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+	    <separator/>
+    	    <item label="Configuration"> <action name="Execute">
+	    	<execute>alacritty -e nvim .config/openbox</execute>
+    	    </action> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+
+</openbox_menu>
