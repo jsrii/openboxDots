@@ -9,11 +9,12 @@ Simply drag and drop my dotfiles into your ```.config/``` folder in your home, o
 ```
 git clone https://github.com/jsrii/openboxDots.git
 mv dots/ ~/.config
+mv ~/.config/.themes/ ~/
 ```
 
-Then reload your apps or just restart your device and the configs should be applied.
+Then reload your apps or just restart your device and the configs should be applied. 
 
 ## Preview
 
-<video src="GithubAssets/asset1.mp4" controls></video>
-'
+<video src="/GithubAssets/asset1.mp4" controls></video>
+
