@@ -2,6 +2,20 @@
 
 These are my dotfiles that I use on my workhorse, unfortunately I'm not skilled enough with scripting to create a script that can install it for you so for now just copy into your .config folder.
 
+## Prerequisites
+
+Use your package manager to download the following programs.
+
+```
+alacritty
+dunst
+neofetch
+openbox
+picom
+polybar
+rofi
+```
+
 ## Usage
 
 Simply drag and drop my dotfiles into your ```.config/``` folder in your home, or copy these set of commands:
