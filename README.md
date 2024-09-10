@@ -30,5 +30,7 @@ Then reload your apps or just restart your device and the configs should be appl
 
 ## Preview
 
-<video src="/GithubAssets/asset1.mp4" controls></video>
+<video src="[/GithubAssets/asset1.mp4](https://github.com/user-attachments/assets/f51907f8-7b8f-48a4-a120-8584146ed2d1
+)" controls></video>
 
+[/GithubAssets/asset1.mp4](https://github.com/user-attachments/assets/f51907f8-7b8f-48a4-a120-8584146ed2d1)
