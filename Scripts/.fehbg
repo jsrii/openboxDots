@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/jassri/.config/Wallpapers/wall3.jpg' 
+feh --no-fehbg --bg-scale /home/jassri/.config/Wallpapers/slava-auchynnikau-ozf3yrk8jwu-unsplash.jpg

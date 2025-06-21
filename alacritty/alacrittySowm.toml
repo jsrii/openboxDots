@@ -20,8 +20,8 @@ white = "#C8C093"
 yellow = "#c4b28a"
 
 [colors.primary]
-background = "#121212"
-foreground = "#c5c9c5"
+background = "#f8f9fa"
+foreground = "#131313"
 
 [colors.selection]
 background = "#ffffff"
@@ -30,18 +30,18 @@ foreground = "CellForeground"
 [font]
 size = 8
 [font.bold]
-family = "Liga SFMono Nerd Font"
+family = "Unifont"
 style = "Bold"
 
 [font.bold_italic]
-family = "Liga SFMono Nerd Font"
+family = "Unifont"
 
 [font.italic]
-family = "Liga SFMono Nerd Font"
+family = "Unifont"
 style = "Italic"
 
 [font.normal]
-family = "Liga SFMono Nerd Font"
+family = "Unifont"
 style = "Regular"
 
 [mouse]

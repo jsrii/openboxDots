@@ -1,8 +1,8 @@
 
 [global]
     frame_color = "#000000"
-    foreground = "#FFFFFF"
-    font = "SFMono Nerd Font Mono 10"
+    foreground = "#131313"
+    font = "SFMono 10"
     padding = 15
     frame_width = 3
 
@@ -20,21 +20,21 @@
 
 [urgency_low]
     timeout = 10
-    background = "#000000"
-    foreground = "#FFFFFF"
-    frame_color = "#595959"
+    background = "#131313"
+    foreground = "#f8f9fa"
+    frame_color = "#232323"
 
 [urgency_normal]
     timeout = 10
-    background = "#000000"
-    foreground = "#FFFFFF"
-    frame_color = "#595959"
+    background = "#131313"
+    foreground = "#f8f9fa"
+    frame_color = "#232323"
 
 [urgency_critical]
     timeout = 10
-    background = "#000000"
-    foreground = "#FFFFFF"
-    frame_color = "#ff4835"
+    background = "#131313"
+    foreground = "#f8f9fa"
+    frame_color = "#e46876"
 
 [progress_bar]
     progress_color = "#ff4835"

@@ -1,0 +1,56 @@
+[colors]
+[colors.bright]
+black = "#a6a6a6"
+blue = "#acb7bc"
+cyan = "#b0b6b2"
+green = "#b3b9b2"
+magenta = "#b5b3b8"
+red = "#c8b3b2"
+white = "#c6c6c6"
+yellow = "#d2c8b7"
+
+[colors.normal]
+black = "#4a4a4a"
+blue = "#989fa3"
+cyan = "#9ba19f"
+green = "#9ca39c"
+magenta = "#a19ea1"
+red = "#9f8f8d"
+white = "#b0a88e"
+yellow = "#b4a99a"
+
+[colors.primary]
+background = "#121212"
+foreground = "#c5c9c5"
+
+[colors.selection]
+background = "#ffffff"
+foreground = "CellForeground"
+
+[font]
+size = 12
+[font.bold]
+family = "SFMonoNerdFont"
+style = "Bold"
+
+[font.bold_italic]
+family = "SFMonoNerdFont"
+
+[font.italic]
+family = "SFMonoNerdFont"
+style = "Italic"
+
+[font.normal]
+family = "SFMonoNerdFont"
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[window]
+decorations = "Full"
+opacity = 0.7
+
+[window.padding]
+x = 7
+y = 0

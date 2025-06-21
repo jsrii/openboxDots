@@ -14,6 +14,8 @@ openbox
 picom
 polybar
 rofi
+playerctl
+zscroll
 ```
 
 ## Usage
@@ -22,7 +24,7 @@ Simply drag and drop my dotfiles into your ```.config/``` folder in your home, o
 
 ```
 git clone https://github.com/jsrii/openboxDots.git
-mv dots/ ~/.config
+mv openboxDots/* ~/.config
 mv ~/.config/.themes/ ~/
 ```
 
