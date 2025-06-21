@@ -17,6 +17,7 @@ rofi
 playerctl
 zscroll
 ```
+Please keep in mind that this rice makes use of SFMono Nerd Font and Unifont.
 
 ## Usage
 
